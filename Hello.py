@@ -31,6 +31,8 @@ st.markdown(
     #### Geo Buddy
     *Uses geopy Library*
 
+    *Only works with Raleigh, NC addresses currently*
+
     Use this buddy when you have a **list of places and their addresses, but you need latitude and longitude.**
     Give it a **csv file with an address column** and use geopy to add latitude and longitude.
 

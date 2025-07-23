@@ -5,7 +5,7 @@ import pandas as pd
 # Set up the page
 st.set_page_config(page_title="📌 Overpass Place Finder", layout="centered")
 
-st.title("Overpass Place Finder")
+st.title("📌 Overpass Place Finder")
 st.markdown("Search for places in a city using OpenStreetMap Overpass API, and export to csv for use in ArcGIS maps.")
 
 # Inputs

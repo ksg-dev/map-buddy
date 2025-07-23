@@ -12,6 +12,7 @@ st.title("📍 Address Geocoder")
 
 st.markdown("""
 Upload a CSV with an `address` column and get latitude and longitude added.
+            *Only works with Raleigh, NC addresses currently*
 """)
 
 # Session state to track file and data
