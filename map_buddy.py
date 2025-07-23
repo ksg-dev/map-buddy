@@ -85,6 +85,11 @@ if st.button("Run Query"):
                     st.success(f"Found {len(places)} places")
                     st.dataframe(df)
 
+                    # Optional: Show on a map if coords present
+                    if "Latitude" in df.columns and "Longitude" in df.columns:
+                        st.subheader("📍 Map of Results")
+                        st.map(df.rename(columns={'Latitude': 'lat', "Longitude": 'lon'}))
+
                     # Download button
                     csv = df.to_csv(index=False).encode("utf-8")
                     st.download_button("Download CSV", data=csv, file_name="places.csv", mime="text/csv")
