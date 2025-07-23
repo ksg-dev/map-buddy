@@ -34,6 +34,14 @@ selected_labels = st.multiselect(
 
 filters = [filter_options[label] for label in selected_labels]
 
+custom_filter = st.text_input("Or enter a custom Overpass tag (e.g. amenity=theatre, see: OpenStreetMaps features for available options below)")
+# Link to OpenStreetMap Tags Wiki
+tags_url = "https://wiki.openstreetmap.org/wiki/Map_features#Amenity"
+st.link_button("Explore OpenStreetMap Filters", tags_url, help="View all available filters on OpenStreetMap Wiki", icon=":material/interests:")
+
+if custom_filter and "=" in custom_filter:
+    filters.append(custom_filter.strip())
+
 if st.button("Run Query"):
     if not city:
         st.warning("Plese enter a city")
