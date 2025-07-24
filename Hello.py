@@ -33,6 +33,10 @@ st.markdown(
 
     *Only works with Raleigh, NC addresses currently*
 
+    ##### :material/checklist: Use Case
+    You have: `csv` with `address` column.
+    and you need: `csv` with cooresponding `latitude` and `longitude` columns
+
     Use this buddy when you have a **list of places and their addresses, but you need latitude and longitude.**
     Give it a **csv file with an address column** and use geopy to add latitude and longitude.
 
