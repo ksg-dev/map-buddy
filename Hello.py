@@ -27,10 +27,11 @@ st.markdown(
     You have: `csv` with `address` column.
     and you need: `csv` with cooresponding `latitude` and `longitude` columns
 
-    Use this buddy when you have a **list of places and their addresses, but you need latitude and longitude.**
-    Give it a **csv file with an address column** and use geopy to add latitude and longitude.
+    Give it a `csv` file with an `address` column and use geopy to add `latitude` and `longitude`.
 
-    Then export the results as a csv that can be added as a layer in an ArcGIS map.
+    Then export the results as a `csv` that can be added as a layer in an ArcGIS map.
+
+    ---
 
     #### 📌 Overpass Buddy: Place Finder
     *Uses OpenStreetMap Overpass API*
@@ -38,13 +39,11 @@ st.markdown(
     ##### :material/checklist: Use Case
     You have: `city` and what you want to `filter` by (Restaurants, Libraries, etc.)
     and you need: `csv` with geocoded locations matching your criteria, 
-
-    Use this buddy when you want to find certain types of locations in a city. 
     
-    Enter a **city name**, and **choose from defined filters like Libraries, Restaurants, or Hotels,** 
-    or browse OpenStreetMap map features for custom filtering options.
+    Enter a `city` name, and choose from defined `filters` like `Libraries`, `Restaurants`, or `Hotels`,
+    or browse OpenStreetMap map features for `custom filtering` options.
 
-    Then export the results as a csv that can be added as a layer in an ArcGIS map.
+    Then export the results as a `csv` that can be added as a layer in an ArcGIS map.
 
     """
 )
