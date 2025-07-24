@@ -8,7 +8,7 @@ import pandas as pd
 # Set up the page
 st.set_page_config(page_title="Geopy Address Converter", layout="centered")
 
-st.title("📍 Address Geocoder")
+st.title("📍 Geo Buddy: Address Geocoder")
 
 st.markdown("""
 Upload a CSV with an `address` column and get latitude and longitude added.

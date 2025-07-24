@@ -18,17 +18,7 @@ st.markdown(
     ### Choose Your Buddy
     Different buddies for different needs.
 
-    #### Overpass Buddy
-    *Uses OpenStreetMap Overpass API*
-
-    Use this buddy when you want to find certain types of locations in a city. 
-    
-    Enter a **city name**, and **choose from defined filters like Libraries, Restaurants, or Hotels,** 
-    or browse OpenStreetMap map features for custom filtering options.
-
-    Then export the results as a csv that can be added as a layer in an ArcGIS map.
-
-    #### Geo Buddy
+    #### 📍 Geo Buddy: Address Geocoder
     *Uses geopy Library*
 
     *Only works with Raleigh, NC addresses currently*
@@ -40,5 +30,21 @@ st.markdown(
     Use this buddy when you have a **list of places and their addresses, but you need latitude and longitude.**
     Give it a **csv file with an address column** and use geopy to add latitude and longitude.
 
-    Then export the results as a csv that can be added as a layer in an ArcGIS map."""
+    Then export the results as a csv that can be added as a layer in an ArcGIS map.
+
+    #### 📌 Overpass Buddy: Place Finder
+    *Uses OpenStreetMap Overpass API*
+
+    ##### :material/checklist: Use Case
+    You have: `city` and what you want to `filter` by (Restaurants, Libraries, etc.)
+    and you need: `csv` with geocoded locations matching your criteria, 
+
+    Use this buddy when you want to find certain types of locations in a city. 
+    
+    Enter a **city name**, and **choose from defined filters like Libraries, Restaurants, or Hotels,** 
+    or browse OpenStreetMap map features for custom filtering options.
+
+    Then export the results as a csv that can be added as a layer in an ArcGIS map.
+
+    """
 )
