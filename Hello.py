@@ -37,8 +37,8 @@ st.markdown(
     *Uses OpenStreetMap Overpass API*
 
     ##### :material/checklist: Use Case
-    You have: `city` and what you want to `filter` by (Restaurants, Libraries, etc.)
-    and you need: `csv` with geocoded locations matching your criteria, 
+    :material/task_alt: You have: `city` and what you want to `filter` by (Restaurants, Libraries, etc.)\n
+    :material/pending: and you need: `csv` with geocoded locations matching your criteria, 
     
     Enter a `city` name, and choose from defined `filters` like `Libraries`, `Restaurants`, or `Hotels`,
     or browse OpenStreetMap map features for `custom filtering` options.
